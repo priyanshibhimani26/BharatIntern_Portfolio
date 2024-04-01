@@ -1,4 +1,4 @@
-# BHARAT_Intern_Portfolio
+# BharatIntern_Portfolio
 Welcome to my Software Engineer Portfolio, a project completed as part of my internship with Bharat Intern.
 
 Sanket's Portfolio [Live Demo here](https://github.com/priyanshibhimani26/BharatIntern_Portfolio/)
