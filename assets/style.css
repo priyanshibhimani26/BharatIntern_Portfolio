@@ -287,13 +287,13 @@ section .title::after {
 .about {
   background: radial-gradient(#e1efff, white);
 }
-.about .title::after {
-  content: "—Who I Am ?—";
+/* .about .title::after {
+
   text-overflow: ellipsis;
   display: -webkit-inline-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-}
+} */
 
 .about .about-content .left {
   width: 45%;
@@ -353,13 +353,6 @@ section .title::after {
   background: linear-gradient(rgba(37, 36, 36, 0.4), rgba(40, 39, 39, 0.521)), url("http://getwallpapers.com/wallpaper/full/b/8/1/489068.jpg") ;  background-repeat: no-repeat center; background-size: cover ;
     
 }
-
-.services .title::after,
-.projects .title::after {
-  content: "What I Provide ?";
-  color: #888c8d;
-}
-
 .services .serv-content .card {
   width: calc(33% - 20px);
   background: #222;
@@ -403,9 +396,6 @@ section .title::after {
 /*  Skills  */
 .skills {
   background: radial-gradient(#e1efff, white);
-}
-.skills .title::after {
-  content: "—What I Know ?—";
 }
 
 .skills .skills-content .column {
@@ -509,10 +499,6 @@ section .title::after {
 }
 
 /*  Projects  */
-.projects .title::after {
-  content: "What I did ?";
-}
-
 .projects .carousel .card {
   background: #222;
   border-radius: 6px;
@@ -585,10 +571,6 @@ section .title::after {
 /*  Contact  */
 .contact {
   background: radial-gradient(#e1efff, white);
-}
-
-.contact .title::after {
-  content: "—Get in Touch—";
 }
 
 .contact .contact-content .column {
