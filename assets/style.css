@@ -287,13 +287,6 @@ section .title::after {
 .about {
   background: radial-gradient(#e1efff, white);
 }
-/* .about .title::after {
-
-  text-overflow: ellipsis;
-  display: -webkit-inline-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-} */
 
 .about .about-content .left {
   width: 45%;
@@ -318,7 +311,6 @@ section .title::after {
 
 /* Linear Gradiant */
 .about .about-content .right .text span {
-  /* color: #1e3551; */
   background: linear-gradient(135deg, #ce28da, #deced3, rgb(74, 2, 76));  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
